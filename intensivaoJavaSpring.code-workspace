@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"workbench.colorTheme": "Tinacious Design (High Contrast)",
+	},
+	"extensions": {
+    "recommendations": [
+			"aaron-bond.better-comments",
+			"alefragnani.Bookmarks",
+			"christian-kohler.path-intellisense",
+			"dzhavat.bracket-pair-toggler",
+			"k--kato.docomment",
+			"PKief.material-icon-theme",
+
+      "redhat.java",
+			"vscjava.vscode-maven",
+			"vscjava.vscode-spring-initializr",
+			"vscjava.vscode-java-debug"
+
+    ]
+  }
+}
