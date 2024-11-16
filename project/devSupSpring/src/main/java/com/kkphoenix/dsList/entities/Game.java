@@ -17,13 +17,15 @@ public class Game {
   private Long id;
 
   private String title;
-  @Column(name="game_year") private Integer year;
   private String genre;
-  private String platforms;
   private Double score;
+
+  @Column(name="game_year") private Integer year;
+  @Column(columnDefinition = "TEXT") private String shortDescription;
+  @Column(columnDefinition = "TEXT") private String longDescription;
+
+  private String platforms;
   private String imgUrl;
-  private String shortDescription;
-  private String longDescription;
 
   // ----------- Constructors -----------
 
@@ -41,8 +43,6 @@ public class Game {
     this.shortDescription = shortDescription;
     this.longDescription = longDescription;
   }
-
-
 
 
   // ----------- Getters and Setters -----------
